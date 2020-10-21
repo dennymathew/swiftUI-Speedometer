@@ -13,6 +13,7 @@
 		B079106925400BD1002B0E36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B079106725400BD1002B0E36 /* Main.storyboard */; };
 		B079106B25400BD7002B0E36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B079106A25400BD7002B0E36 /* Assets.xcassets */; };
 		B079106E25400BD7002B0E36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B079106C25400BD7002B0E36 /* LaunchScreen.storyboard */; };
+		B079107725400C99002B0E36 /* GuageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B079107625400C99002B0E36 /* GuageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B079106A25400BD7002B0E36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B079106D25400BD7002B0E36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B079106F25400BD7002B0E36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B079107625400C99002B0E36 /* GuageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +61,21 @@
 				B079106125400BD1002B0E36 /* AppDelegate.swift */,
 				B079106325400BD1002B0E36 /* SceneDelegate.swift */,
 				B079106525400BD1002B0E36 /* ViewController.swift */,
+				B079107525400C6F002B0E36 /* Guage */,
 				B079106725400BD1002B0E36 /* Main.storyboard */,
 				B079106A25400BD7002B0E36 /* Assets.xcassets */,
 				B079106C25400BD7002B0E36 /* LaunchScreen.storyboard */,
 				B079106F25400BD7002B0E36 /* Info.plist */,
 			);
 			path = Speedometer;
+			sourceTree = "<group>";
+		};
+		B079107525400C6F002B0E36 /* Guage */ = {
+			isa = PBXGroup;
+			children = (
+				B079107625400C99002B0E36 /* GuageView.swift */,
+			);
+			path = Guage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			files = (
 				B079106625400BD1002B0E36 /* ViewController.swift in Sources */,
 				B079106225400BD1002B0E36 /* AppDelegate.swift in Sources */,
+				B079107725400C99002B0E36 /* GuageView.swift in Sources */,
 				B079106425400BD1002B0E36 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
